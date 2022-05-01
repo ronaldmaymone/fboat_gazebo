@@ -5,6 +5,7 @@ Simulating the Fboat with Gazebo and ROS
 ### Build the dockwater image with MELODIC option
 Build the base image with the `build.bash` script. 
 ```
+cd dockwater
 DIST=melodic
 ./build.bash ${DIST}
 ```
@@ -20,13 +21,13 @@ cd my_workspace
 catkin_init_workspace src
 catkin_make
 ```
-After this, move both folders `sailboat_gazebo` and `vrx` into the `src` folder
+#### After this, move both folders `sailboat_gazebo` and `vrx` into the `src` folder
 
 Run
 ```
 catkin_make
 ```
-Wait some time now and if it builds succesfully. Run the world by:
+### Wait some time now and if it builds succesfully. Run the world by:
 ```
 source devel/setup.bash
 roslaunch sailboat_gazebo sailboat.launch
