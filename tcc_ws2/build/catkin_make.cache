@@ -1,2 +1,0 @@
-sailboat_gazebo/sailboat_description:sailboat_gazebo/sailboat_gazebo:sailboat_gazebo/sailboat_teleop:sailboat_gazebo/uuv_descriptions:sailboat_gazebo/uuv_gazebo_plugins/uuv_gazebo_plugins:sailboat_gazebo/uuv_gazebo_plugins/uuv_gazebo_ros_plugins:sailboat_gazebo/uuv_gazebo_plugins/uuv_gazebo_ros_plugins_msgs:vrx/usv_gazebo_plugins:vrx/usv_msgs:vrx/vrx_2019:vrx/vrx_gazebo:vrx/wamv_description:vrx/wamv_gazebo:vrx/wave_gazebo:vrx/wave_gazebo_plugins
--DCATKIN_DEVEL_PREFIX=/home/ronald/tcc_ws2/devel -DCMAKE_INSTALL_PREFIX=/home/ronald/tcc_ws2/install -G Unix Makefiles
