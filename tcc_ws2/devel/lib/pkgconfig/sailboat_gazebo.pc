@@ -1,0 +1,8 @@
+prefix=/home/ronald/tcc_ws2/devel
+
+Name: sailboat_gazebo
+Description: Description of sailboat_gazebo
+Version: 1.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: sailboat_description xacro
