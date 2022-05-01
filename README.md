@@ -2,7 +2,7 @@
 Simulating the Fboat with Gazebo and ROS
 
 ## Build Instructions
-### Build the dockwater image with MELODIC optin
+### Build the dockwater image with MELODIC option
 Build the base image with the `build.bash` script. 
 ```
 DIST=melodic
